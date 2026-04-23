@@ -1,11 +1,5 @@
 
-// output:
-// *
-// **
-// ***
-// **** 
-
-public class star1 {
+public class star2{
     public static void main(String[] args) {
 
         int n = 4;
@@ -13,7 +7,7 @@ public class star1 {
 
         for ( int i = 1; i<=n;i++){
 
-            for (int j=1; j<=i; j++){
+            for (int j=1; j<=m; j++){
 
                 System.out.print("*");
 
